@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contoh Typography Plugin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- CDN tidak bisa menggunakan @plugin -->
+  <!-- Untuk CLI-only setup, gunakan: -->
+  <!-- 
+  @import "tailwindcss";
+  @plugin "@tailwindcss/typography";
+  -->
+</head>
+<body class="bg-gray-50 p-6">
+  <article class="prose max-w-2xl mx-auto bg-white p-6 rounded-lg shadow">
+    <h1>Judul Artikel yang Menarik</h1>
+    <p>Ini adalah paragraf pembuka. Dengan Tailwind Typography Plugin, kita tidak perlu menulis banyak class karena semuanya sudah diatur dengan rapi.</p>
+    <h2>Subjudul Kedua</h2>
+    <p>Paragraf ini adalah bagian dari konten yang lebih panjang. Kita juga bisa membuat <strong>teks tebal</strong>, <em>teks miring</em>, dan menyisipkan <code>code</code> inline.</p>
+    <blockquote>
+      Ini adalah kutipan penting dari seseorang yang bijak.
+    </blockquote>
+    <ul>
+      <li>Poin pertama</li>
+      <li>Poin kedua</li>
+      <li>Poin ketiga</li>
+    </ul>
+    <pre><code>const hello = "Hello World";</code></pre>
+  </article>
+</body>
+</html>
